@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
 $color: black;
 
@@ -51,7 +51,7 @@ span {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(18, 15, 88, 0.5);
   transform: scale(0);
   position: absolute;
   opacity: 1;
