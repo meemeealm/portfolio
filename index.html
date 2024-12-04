@@ -5,37 +5,74 @@
         <!--- add bg theme <link rel="stylesheet" href="style.css" type="text/css">-->
     </head>
     <body>
-        <h2>Short Bio</h2>
+        <h2>About Me</h2>
     </body>
     <br>
     <body>
-        <p>
-        I am career shifter. <br>
-        My past experiences have focused on digital marketing, 
-        communication, and content creation.<br>
-        Recently, I have developed a strong passion for data.<br>
-        </p>
+        
+        <!-- ------------about------------ -->
 
-        <p>
-        <b>Education</b>:  M.Sc (Informatics) from UTM Malaysia.<br>
-                    B.A (Russian Language) from Yangon University of Foreign Languages. 
-        </p>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <!----image class-->
+            <!---<div class="about-col-1">
+                <img src="images/preview1.png">
+            </div> ---->
+            
+            <div class="about-col-2">
+                <h2 class="sub-title">About Me</h2>
+                <p>I am career shifter. <br>
+                    My past experiences have focused on digital marketing, communication, and content creation.<br>
+                    Recently, I have developed a strong passion for data.<br>
+                    Let's connect and see how I can bring my data skills to your next project.</p>
 
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>DATABASE/SERVER :</span><BR>MySQL, PostgreSQL</li><BR>
+                        <li><span>PROGRAMMING LANGUAGE :</span><BR>Python, SQL</li><BR>
+                        <li><span>OTHER TOOLS/SKILLS :</span><BR>Looker Studio, Tableau, PowerBI, MSExcel<BR>Data Gathering, Data Pre-processing, EDA, Pandas, Numpy</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - 2024</span><BR>Information Management Officer</li><BR>
+                        <li><span>2022 - 2023</span><BR>Career break for studies</li><BR>
+                        <li><span>2019 - 2021</span><BR>Social Media Officer</li><BR>
+                        <li><span>2017 - 2019</span><BR>Digital Media Lead</li><BR>
+                        <li><span>2015 - 2017</span><BR>Senior Content Writer</li><BR>
+                        <li><span>2014 - 2015</span><BR>Translator</li><BR>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - 2023</span><BR>M.Sc(Informatics) at Universiti Teknologi Malaysia</li><BR>
+                        <li><span>2010 - 2013</span><BR>B.A(Russian) at Yangon University</li><BR>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div>
+    <h2 class="sub-title">Connect With Me</h2>        
+        
         <p>
-        <b>Languages.Program</b>:  Python, SQL.<br>
-        <b>Tools.Design</b>:       Adobe PS, Figma, Canva.<br>
-        <b>Tools.Analytics</b>:    Tableau, Power BI, Looker. <br>
+        <li> </li><b>E-mail</b>: meemee.alm20@gmail.com</li><BR>
+        <li> </li><b>Linkedin</b>: <a href = 'https://www.linkedin.com/in/mee-mee-alm/'>Mee Mee Alainmar</a></li><BR>
         </p>
-
-        <p>
-        <b>E-mail</b>: meemee.alm20@gmail.com<br>
-        <b>Linkedin</b>: <a href = 'https://www.linkedin.com/in/mee-mee-alm/'>Mee Mee Alainmar</a><br>
-        </p>
+    </div>
+        
     </body>
     <body>
     <div>
         <p>
-        <button id="style" onclick="window.location.href='https://drive.google.com/file/d/1Ss-I6rHArKnYZ8ynbCKr4tNOkP0XVEP5/view?usp=sharing'">Download My CV</button>
+        <button id="style.css" onclick="window.location.href='https://drive.google.com/file/d/1Ss-I6rHArKnYZ8ynbCKr4tNOkP0XVEP5/view?usp=sharing'">Download My CV</button>
         <script type="text/javascript" src="style.js"></script>
         </p>
     </div>
