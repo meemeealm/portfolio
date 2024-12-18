@@ -14,6 +14,7 @@ gems:
   - jekyll-remote-theme
 
 remote_theme: BDHU/minimalist
+
 # You can find fonts from https://iconify.design or https://fontawesome.com. Below is just an example illustrating how to use custom icons
 sidebar:
   - name: Google Scholar
